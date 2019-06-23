@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writings on Kevin Duggan</title>
+    <link>http://kevduggan.github.io/writing/</link>
+    <description>Recent content in Writings on Kevin Duggan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Jun 2019 10:40:46 +0100</lastBuildDate>
+    
+	<atom:link href="http://kevduggan.github.io/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Opening Night</title>
+      <link>http://kevduggan.github.io/writing/opening-night/</link>
+      <pubDate>Sun, 23 Jun 2019 10:40:46 +0100</pubDate>
+      
+      <guid>http://kevduggan.github.io/writing/opening-night/</guid>
+      <description>The year was 2004, the city was Canberra, Australia. The first international tour where I was male lead dancer, it was opening night. Big time!
+The show was starting, the hum of the audience dying down as the curtain came up. I was standing offstage left. My warm up was good. Felt nervous but ready to go. The music started slowly. I gave a quick jump to keep blood moving. The main troupe started into their slow choreography on stage.</description>
+    </item>
+    
+  </channel>
+</rss>
