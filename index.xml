@@ -22,6 +22,16 @@ The show was starting, the hum of the audience dying down as the curtain came up
     </item>
     
     <item>
+      <title>Rediscovering Lean: From Idea to Sale in 6 Months</title>
+      <link>https://kduggan.is/speaking/rediscovering-lean/</link>
+      <pubDate>Thu, 20 Jun 2019 12:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/speaking/rediscovering-lean/</guid>
+      <description>Slides from a take I gave at RebelCon 2019 around finding flow and success in a recent project.
+  </description>
+    </item>
+    
+    <item>
       <title>3 Tips for Bootstrapping Your High Performance Team</title>
       <link>https://kduggan.is/writing/bootstrapping-high-performance-team/</link>
       <pubDate>Tue, 23 Apr 2019 10:40:46 +0100</pubDate>
@@ -30,7 +40,7 @@ The show was starting, the hum of the audience dying down as the curtain came up
       <description>Building a new product team is tough. But what about the added pressure of knowing that they has to hit the ground running? How do you set you and your team up for success?
 This blog post offers a few tips on how you to build that important momentum required to deliver both for the team and their users.
 Photo by Ravi Roshan on Unsplash
-1 Get some great people I’m not saying everyone has to have crazy skills (though they can come in handy).</description>
+##1 Get some great people I’m not saying everyone has to have crazy skills (though they can come in handy).</description>
     </item>
     
     <item>
@@ -50,6 +60,46 @@ There are three roles: one driver, one navigator, and one-to-many back seat pass
       
       <guid>https://kduggan.is/writing/zip-it/</guid>
       <description>Quick tip today. If you are a senior person in a meeting, answering lots of questions, offering loads of great advice, then try shutting up! You are talking too much and hurting other people more junior/introverted that you. Instead, show leadership by listening and empathising. This is the way forward. Sure, there is a time and a place for your knowledge and experience. But always giving advice, offering help and opinions, is short-termism.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning, a Quick Introduction</title>
+      <link>https://kduggan.is/speaking/machine-learning-intro/</link>
+      <pubDate>Wed, 22 Aug 2018 12:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/speaking/machine-learning-intro/</guid>
+      <description>Machine Learning is quite daunting for those who are unfamiliar with it. He is a brief introduction to some of the main concepts involved.
+  </description>
+    </item>
+    
+    <item>
+      <title>Big Data Analytics with Apache Spark</title>
+      <link>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</link>
+      <pubDate>Tue, 20 Mar 2018 11:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</guid>
+      <description>A talk I gave at CorkDev.io around my experience in using Apache Spark in production for big data streaming and batch workloads.
+  </description>
+    </item>
+    
+    <item>
+      <title>Kanban Metrics: what and why...</title>
+      <link>https://kduggan.is/speaking/kanban/</link>
+      <pubDate>Wed, 01 Mar 2017 12:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/speaking/kanban/</guid>
+      <description>A quick run through what you should be tracking with Kanban, with some examples from teams I have worked on.
+  </description>
+    </item>
+    
+    <item>
+      <title>Care about your Code</title>
+      <link>https://kduggan.is/speaking/care-about-your-code/</link>
+      <pubDate>Thu, 22 Dec 2016 12:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/speaking/care-about-your-code/</guid>
+      <description>You should care about the quality of your code, and SonarQube makes this easy.
+  </description>
     </item>
     
   </channel>
