@@ -52,5 +52,15 @@ There are three roles: one driver, one navigator, and one-to-many back seat pass
       <description>Quick tip today. If you are a senior person in a meeting, answering lots of questions, offering loads of great advice, then try shutting up! You are talking too much and hurting other people more junior/introverted that you. Instead, show leadership by listening and empathising. This is the way forward. Sure, there is a time and a place for your knowledge and experience. But always giving advice, offering help and opinions, is short-termism.</description>
     </item>
     
+    <item>
+      <title>Continuous Delivery and THE FEAR</title>
+      <link>https://kduggan.is/writing/continuous-delivery-and-the-fear/</link>
+      <pubDate>Tue, 23 May 2017 10:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/writing/continuous-delivery-and-the-fear/</guid>
+      <description>Continuous Delivery (CD) is the ability to get changes of all types—including new features, configuration changes, bug fixes and experiments—into production, or into the hands of users, safely and quickly in a sustainable way.
+ You want to go faster, so you invest months in building out a fully automated build pipeline. You modernise your architecture and adopt the latest agile process. And you achieve the dream of CD, with the ability to deploy features and bug fixes to production in seconds with zero downtime.</description>
+    </item>
+    
   </channel>
 </rss>

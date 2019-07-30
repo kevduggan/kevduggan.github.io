@@ -83,6 +83,16 @@ There are three roles: one driver, one navigator, and one-to-many back seat pass
     </item>
     
     <item>
+      <title>Continuous Delivery and THE FEAR</title>
+      <link>https://kduggan.is/writing/continuous-delivery-and-the-fear/</link>
+      <pubDate>Tue, 23 May 2017 10:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/writing/continuous-delivery-and-the-fear/</guid>
+      <description>Continuous Delivery (CD) is the ability to get changes of all types—including new features, configuration changes, bug fixes and experiments—into production, or into the hands of users, safely and quickly in a sustainable way.
+ You want to go faster, so you invest months in building out a fully automated build pipeline. You modernise your architecture and adopt the latest agile process. And you achieve the dream of CD, with the ability to deploy features and bug fixes to production in seconds with zero downtime.</description>
+    </item>
+    
+    <item>
       <title>Kanban Metrics: what and why...</title>
       <link>https://kduggan.is/speaking/kanban/</link>
       <pubDate>Wed, 01 Mar 2017 12:40:46 +0100</pubDate>
