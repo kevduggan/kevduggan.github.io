@@ -62,5 +62,14 @@ There are three roles: one driver, one navigator, and one-to-many back seat pass
  You want to go faster, so you invest months in building out a fully automated build pipeline. You modernise your architecture and adopt the latest agile process. And you achieve the dream of CD, with the ability to deploy features and bug fixes to production in seconds with zero downtime.</description>
     </item>
     
+    <item>
+      <title>Big Data Analytics with Apache Spark</title>
+      <link>https://kduggan.is/writing/analytics-with-spark/</link>
+      <pubDate>Wed, 02 Nov 2016 10:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/writing/analytics-with-spark/</guid>
+      <description>Over the past two years, my team has taken a new Cross-Channel Analytics Platform from proof of concept to production. Our customers publish hundreds of thousands of communications daily across a variety of different channels, generating an explosion of events on that content. Email opens, page views, video plays and social comments (to mention but a few) are all captured by our platform and we process them across multiple different metrics and dimensions to deliver insights and actionable reports and dashboards to our end users.</description>
+    </item>
+    
   </channel>
 </rss>

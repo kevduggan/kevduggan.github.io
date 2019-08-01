@@ -22,7 +22,7 @@ The show was starting, the hum of the audience dying down as the curtain came up
     </item>
     
     <item>
-      <title>Rediscovering Lean: From Idea to Sale in 6 Months</title>
+      <title>Talk: Rediscovering Lean: From Idea to Sale in 6 Months</title>
       <link>https://kduggan.is/speaking/rediscovering-lean/</link>
       <pubDate>Thu, 20 Jun 2019 12:40:46 +0100</pubDate>
       
@@ -63,22 +63,12 @@ There are three roles: one driver, one navigator, and one-to-many back seat pass
     </item>
     
     <item>
-      <title>Machine Learning, a Quick Introduction</title>
+      <title>Talk: Machine Learning, a Quick Introduction</title>
       <link>https://kduggan.is/speaking/machine-learning-intro/</link>
       <pubDate>Wed, 22 Aug 2018 12:40:46 +0100</pubDate>
       
       <guid>https://kduggan.is/speaking/machine-learning-intro/</guid>
       <description>Machine Learning is quite daunting for those who are unfamiliar with it. He is a brief introduction to some of the main concepts involved.
-  </description>
-    </item>
-    
-    <item>
-      <title>Big Data Analytics with Apache Spark</title>
-      <link>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</link>
-      <pubDate>Tue, 20 Mar 2018 11:40:46 +0100</pubDate>
-      
-      <guid>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</guid>
-      <description>A talk I gave at CorkDev.io around my experience in using Apache Spark in production for big data streaming and batch workloads.
   </description>
     </item>
     
@@ -93,7 +83,17 @@ There are three roles: one driver, one navigator, and one-to-many back seat pass
     </item>
     
     <item>
-      <title>Kanban Metrics: what and why...</title>
+      <title>Talk: Analytics with Apache Spark</title>
+      <link>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</link>
+      <pubDate>Mon, 20 Mar 2017 11:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</guid>
+      <description>A talk I gave at CorkDev.io around my experience in using Apache Spark in production for big data streaming and batch workloads.
+  </description>
+    </item>
+    
+    <item>
+      <title>Talk: Kanban Metrics: what and why...</title>
       <link>https://kduggan.is/speaking/kanban/</link>
       <pubDate>Wed, 01 Mar 2017 12:40:46 +0100</pubDate>
       
@@ -103,13 +103,22 @@ There are three roles: one driver, one navigator, and one-to-many back seat pass
     </item>
     
     <item>
-      <title>Care about your Code</title>
+      <title>Talk: Care about your Code</title>
       <link>https://kduggan.is/speaking/care-about-your-code/</link>
       <pubDate>Thu, 22 Dec 2016 12:40:46 +0100</pubDate>
       
       <guid>https://kduggan.is/speaking/care-about-your-code/</guid>
       <description>You should care about the quality of your code, and SonarQube makes this easy.
   </description>
+    </item>
+    
+    <item>
+      <title>Big Data Analytics with Apache Spark</title>
+      <link>https://kduggan.is/writing/analytics-with-spark/</link>
+      <pubDate>Wed, 02 Nov 2016 10:40:46 +0100</pubDate>
+      
+      <guid>https://kduggan.is/writing/analytics-with-spark/</guid>
+      <description>Over the past two years, my team has taken a new Cross-Channel Analytics Platform from proof of concept to production. Our customers publish hundreds of thousands of communications daily across a variety of different channels, generating an explosion of events on that content. Email opens, page views, video plays and social comments (to mention but a few) are all captured by our platform and we process them across multiple different metrics and dimensions to deliver insights and actionable reports and dashboards to our end users.</description>
     </item>
     
   </channel>

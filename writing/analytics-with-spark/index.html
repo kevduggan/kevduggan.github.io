@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="AxDGhI6ZK9Enc8zss4XFXFjvJnXhieFmsNOZufKF4VQ" />
+
+
+<meta name="generator" content="Hugo 0.55.6" />
+<title>Big Data Analytics with Apache Spark</title>
+<link rel="shortcut icon" href="https://kduggan.is/images/favicon.ico">
+<link rel="stylesheet" href="https://kduggan.is/css/style.css">
+<link rel="stylesheet" href="https://kduggan.is/css/highlight.css">
+
+
+
+<link rel="stylesheet" href="https://kduggan.is/css/monosocialiconsfont.css">
+
+
+
+
+<meta property="og:title" content="Big Data Analytics with Apache Spark" />
+<meta property="og:description" content="Over the past two years, my team has taken a new Cross-Channel Analytics Platform from proof of concept to production. Our customers publish hundreds of thousands of communications daily across a variety of different channels, generating an explosion of events on that content. Email opens, page views, video plays and social comments (to mention but a few) are all captured by our platform and we process them across multiple different metrics and dimensions to deliver insights and actionable reports and dashboards to our end users." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kduggan.is/writing/analytics-with-spark/" />
+<meta property="article:published_time" content="2016-11-02T10:40:46&#43;01:00"/>
+<meta property="article:modified_time" content="2016-11-02T10:40:46&#43;01:00"/>
+
+
+
+<meta itemprop="name" content="Big Data Analytics with Apache Spark">
+<meta itemprop="description" content="Over the past two years, my team has taken a new Cross-Channel Analytics Platform from proof of concept to production. Our customers publish hundreds of thousands of communications daily across a variety of different channels, generating an explosion of events on that content. Email opens, page views, video plays and social comments (to mention but a few) are all captured by our platform and we process them across multiple different metrics and dimensions to deliver insights and actionable reports and dashboards to our end users.">
+
+
+<meta itemprop="datePublished" content="2016-11-02T10:40:46&#43;01:00" />
+<meta itemprop="dateModified" content="2016-11-02T10:40:46&#43;01:00" />
+<meta itemprop="wordCount" content="1433">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Big Data Analytics with Apache Spark"/>
+<meta name="twitter:description" content="Over the past two years, my team has taken a new Cross-Channel Analytics Platform from proof of concept to production. Our customers publish hundreds of thousands of communications daily across a variety of different channels, generating an explosion of events on that content. Email opens, page views, video plays and social comments (to mention but a few) are all captured by our platform and we process them across multiple different metrics and dimensions to deliver insights and actionable reports and dashboards to our end users."/>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144530188-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='https://kduggan.is'> <span class="arrow">←</span>Home</a>
+	
+
+	
+ 		<a href='/about/'>About</a>
+  	
+
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>Big Data Analytics with Apache Spark</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        November 2, 2016
+        <br>
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        
+
+<p>Over the past two years, my team has taken a new Cross-Channel Analytics Platform from proof of concept to production. Our customers publish hundreds of thousands of communications daily across a variety of different channels, generating an explosion of events on that content. Email opens, page views, video plays and social comments (to mention but a few) are all captured by our platform and we process them across multiple different metrics and dimensions to deliver insights and actionable reports and dashboards to our end users. We do all this at scale using Apache Spark.</p>
+
+<h3 id="why-spark">Why Spark?</h3>
+
+<p>Spark has enjoyed a meteoric rise in popularity going from humble beginnings as a Ph.D. research project to the largest open source big data project (with 1000+ contributors) in 5 years. During the initial project phase we investigated a number of MapReduce offerings (Hive, Storm, Pig) but in the end went with Spark because it is:</p>
+
+<ul>
+<li><em>Fast:</em> Holds the current world record for sorting (100TB in 23 mins), sounds good enough for me!</li>
+<li><em>General:</em> Great language support with API offerings in Scala, Java, Python, and R.</li>
+<li><em>Flexible:</em> Has pluggable support for all the common data sources you might want to read from and write to.</li>
+<li><em>Streaming and Batch:</em> Our use case requires the ability to ingest data quickly and process it efficiently</li>
+</ul>
+
+<h3 id="deliver-value-quickly">Deliver Value Quickly</h3>
+
+<p>To me, the great power of Spark lies not in its speed and distributed magic but in its ability to get you thinking more about the latent value that your data contains and less about how to extract that value. The barrier to entry (both operationally and programmatically) into MapReduce processing, machine learning etc. is lessened as Spark does a great job of abstracting away the underlying complexity.</p>
+
+<p>It’s simple yet elegant API is based on mainstream Scala functional transformations. This makes it especially familiar to those who have some experience in this area. I found myself getting up to speed with it’s API very quickly, almost forgetting I was dealing with large distributed volumes of data and instead focussing on getting answers from my data.</p>
+
+<h3 id="spark-core">Spark Core</h3>
+
+<p>Spark provides the developer with and API centered on a data structure called the resilient distributed dataset (RDD). RDDs are the main abstraction upon which all the upper layers of Spark (Streaming, ML, SparkSQL etc) are built. The can be created from parallelizing a collection or from reading data from an external source (file, database, queue etc).</p>
+
+<pre><code class="language-val">val distData = sparkContect.parallelize(data)
+</code></pre>
+
+<p>Being immutable means they can be easily cached, shared across processes and replicated across machines. They are lazy meaning they are only materialized when needed. It is easier to think of them not as traditional data structures but as a recipe for making data from other data. This also means that they are fault tolerant. In the event of a partition (a portion of the RDD) being lost, it can be recreated from this recipe (or lineage in Spark terminology).</p>
+
+<h3 id="operations">Operations</h3>
+
+<p>RDDs can be operated on in parallel by either:</p>
+
+<ul>
+<li><p><em>Transformations:</em> Create one RDD from another. The original RDD is not mutated rather a brand new RDD results from the transformation. Examples are map, flatmap, filter, groupByKey, reduceByKey.</p></li>
+
+<li><p><em>Actions:</em> Return a value after running a computation. These are not lazy and cause all RDDs to be materialized. At the point of an action, Spark works backward, breaking down and distributing all intermediate tasks and data across the cluster, carrying out the various transformations and bringing it all back together to compute the end result. Examples of actions are: count, first, take(n), collect and saveToCassandra.</p></li>
+</ul>
+
+<p>##Life Cycle of a Spark App
+Given the simplicity of the API, you find yourself very eager to show off how powerful it is through developing some cool apps. The process we have arrived at to bring an app from an idea through to production is as follows:</p>
+
+<ol>
+<li><p>Complete a Dev Spike
+Ideas are great but they can be based on some dodgy assumptions. We mitigate this risk by doing a small proof of concept. We don’t worry too much about the code we produce at this point. Instead, we focus on verifying the basis for our ideas. We might use the <a href="http://spark.apache.org/docs/latest/quick-start.html#interactive-analysis-with-the-spark-shell">Spark REPL</a>, or write a quick app to process a subset of our data to map out roughly (if possible) what source data and what operations will get us to our desired end result.</p></li>
+
+<li><p>Develop the App
+We then develop our apps against an in memory test harness (both unit and acceptance tests). This provides fast feedback as to the correctness of what we are doing. A key point here (that we sometimes forget) is that we might get the right answers from our operations and the tests may pass, but the app could perform very badly when distributed across a real life cluster!</p></li>
+
+<li><p>Run Distributed Tests
+Keen to see how Spark takes our single threaded driver code, splits and distributes the RDD operations across a cluster we run an integration test on a small 3 node docker based cluster. We apply some load to the app and examine the Spark UI. This shows the number (and sequence) of jobs, stages and tasks (and their locality) generated and the volume of data shuffled across the cluster. It is in tuning the code to optimize all these concerns that we have seen the greatest performance improvement in our app. This also has helped educate us in the best way to write and order our spark code.</p></li>
+
+<li><p>Deploy to Production Cluster
+We then deploy our app to production. This is not &ldquo;fire and forget&rdquo;. We monitor our apps via the <a href="http://spark.apache.org/docs/latest/monitoring.html#metrics">Graphite metrics sink</a> that Spark offers out of the box displaying dashboard on Grafana. Any degradation is investigated (again using the Spark UI) and the code is tuned or resources added to the cluster to improve the situation.</p></li>
+</ol>
+
+<h3 id="tips">Tips</h3>
+
+<p>Through following this process for a variety of Spark apps we have made many mistakes and learned a lot. Here are some of our recommendations:</p>
+
+<ul>
+<li>Remember it is not Scala (or whatever language you choose)!
+
+<ul>
+<li>You are writing MapReduce code, not using Scala higher order functions.</li>
+<li>Your job is to reduce the number of shuffles and the amount of data shuffled.</li>
+<li>The ordering of operations matters in this respect.</li>
+</ul></li>
+<li>Again remember it is distributed!
+
+<ul>
+<li>Be careful with variables, closures, and scope.</li>
+<li>Better still use no mutable variables!</li>
+</ul></li>
+<li>Use BDD
+
+<ul>
+<li>Spark Apps can grow large and be hard to reason about when revisiting them for bug fixing or refactoring purposes.</li>
+<li>Using Scala FeatureSpec to write high-level tests helps outline apps intended behaviors.</li>
+</ul></li>
+<li>Use TDD
+
+<ul>
+<li>Spark lends itself nicely to TDD</li>
+<li>Test your transformations independently</li>
+<li>Build up piece by piece to the end results</li>
+</ul></li>
+<li>Streaming and Batch share a common API
+
+<ul>
+<li>We have found this very useful for combining both!</li>
+<li>Your expertise in one is transferrable to the other.</li>
+<li>You can convert your stream into traditional RDDs (the RDD API is richer) but fully investigate what the options are available in the streaming API before doing this.</li>
+</ul></li>
+</ul>
+
+<h3 id="beyond-production">Beyond Production</h3>
+
+<p>Over the last 2 years, I have been very impressed with Sparks scalability and flexibility in tackling a variety of use cases. We now a full data pipeline that ingests data from multiple different sources and process for end user consumption.</p>
+
+<p>On the flipside, there is a large operational effort in running a cluster and resourcing (memory/cores) the apps that run on it. Troubleshooting can be interesting with the number of moving parts in play. You must have a working knowledge of drivers, executors, workers, machines and networking to diagnose failures that can arise. That being said these issues are not unique to Spark and any distributed data processing framework would require similar expertise. For me, this is not a blocker for adopting Spark. You can organically acquire these skills through writing and tuning your apps. It has been a real positive DevOps effort for us in that you must also have an appreciation of what is going on in the code to fully get to the bottom of things.</p>
+
+<p>We now have two teams using Spark and we hope to expand that further. We want to expand our use of Spark in other areas, such as data science and ad-hoc data investigations. These investigations will hopefully yield more insights into out data and drive many more features onto our product roadmap in the future.</p>
+
+<h3 id="learn-more">Learn more…</h3>
+
+<p>If you are interested in learning more about developing Spark apps I have developed a small introduction to the programming with the Spark API which you can try out <a href="https://github.com/kevduggan/spark-worldcup">here</a>.</p>
+
+<hr />
+
+<p>Originally posted on the <a href="https://techblog.poppulo.com/">Poppulo Techblog</a></p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    
+    <img class="avatar" src="https://kduggan.is/images/avatar.png">
+    <div>
+        <span class="dark"></span>
+        <span></span>
+    </div>
+    
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fkduggan.is%2fwriting%2fanalytics-with-spark%2f - Big%20Data%20Analytics%20with%20Apache%20Spark "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/writing/opening-night/">Opening Night<aside class="dates">Jun 23 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/speaking/rediscovering-lean/">Talk: Rediscovering Lean: From Idea to Sale in 6 Months<aside class="dates">Jun 20 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/writing/bootstrapping-high-performance-team/">3 Tips for Bootstrapping Your High Performance Team<aside class="dates">Apr 23 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/writing/mob-programming/">Why Mob Programming? Here are 5 reasons…<aside class="dates">Mar 23 2019</aside></a>
+        </li>
+    
+        <li>
+            <a href="/writing/zip-it/">Zip It (in meetings)!<aside class="dates">Dec 23 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/speaking/machine-learning-intro/">Talk: Machine Learning, a Quick Introduction<aside class="dates">Aug 22 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/writing/continuous-delivery-and-the-fear/">Continuous Delivery and THE FEAR<aside class="dates">May 23 2017</aside></a>
+        </li>
+    
+        <li>
+            <a href="/speaking/big-data-analytics-with-apache-spark/">Talk: Analytics with Apache Spark<aside class="dates">Mar 20 2017</aside></a>
+        </li>
+    
+        <li>
+            <a href="/speaking/kanban/">Talk: Kanban Metrics: what and why...<aside class="dates">Mar 1 2017</aside></a>
+        </li>
+    
+        <li>
+            <a href="/speaking/care-about-your-code/">Talk: Care about your Code<aside class="dates">Dec 22 2016</aside></a>
+        </li>
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+    <p class="small">
+    
+        © Copyright 2019 
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://kduggan.is/js/main.js"></script>
+<script src="https://kduggan.is/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144530188-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+</html>
