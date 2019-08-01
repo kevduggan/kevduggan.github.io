@@ -124,7 +124,7 @@ There are three roles: one driver, one navigator, and one-to-many back seat pass
     <item>
       <title>Removing sleeps from your AngularJS Protractor tests</title>
       <link>https://kduggan.is/writing/removing-sleeps-from-protractor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Jul 2016 10:40:46 +0100</pubDate>
       
       <guid>https://kduggan.is/writing/removing-sleeps-from-protractor/</guid>
       <description>sleep() The Protractor framework does a great job of shielding you from the inherent difficulties of testing your asynchronous Angular app. Using ControlFlow it keeps the list of pending promises hence executing the test in a logical manner. However this is not always enough. Sometimes the tests outrun browser! In such cases you might just be tempted to put in a browser.sleep(2000) to allow everything to get back on track.</description>
