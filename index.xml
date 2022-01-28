@@ -1,61 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kevin Duggan</title>
-    <link>https://kduggan.is/</link>
-    <description>Recent content on Kevin Duggan</description>
+    <title>Home on Kevin Duggan</title>
+    <link>https://kevduggan.github.io/</link>
+    <description>Recent content in Home on Kevin Duggan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Nov 2019 12:40:46 +0100</lastBuildDate>
-    
-	<atom:link href="https://kduggan.is/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 23 Jun 2019 20:13:13 +0100</lastBuildDate><atom:link href="https://kevduggan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Balancing Ambition with Resources</title>
-      <link>https://kduggan.is/writing/ambition-resource-balance/</link>
+      <link>https://kevduggan.github.io/writing/ambition-resource-balance/</link>
       <pubDate>Fri, 08 Nov 2019 12:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/writing/ambition-resource-balance/</guid>
+      <guid>https://kevduggan.github.io/writing/ambition-resource-balance/</guid>
       <description>I played a gig with a friend of mine the other week. Two guitars, one vocal with the odd harmony part. Too simple. I needed to over-complicate it.
 Two acoustic guitars would not do. I needed to give the audience more by bringing some electric into the mix. Who needs one tuning when you cand have three. Standard, Drop D for something heavier, and DADGAD for that folky sound. Stick to chords?</description>
     </item>
     
     <item>
       <title>Hackathons</title>
-      <link>https://kduggan.is/writing/hackathons/</link>
+      <link>https://kevduggan.github.io/writing/hackathons/</link>
       <pubDate>Thu, 07 Nov 2019 10:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/writing/hackathons/</guid>
+      <guid>https://kevduggan.github.io/writing/hackathons/</guid>
       <description>We ran our most successful hack week. It started weeks prior. Management, backed by our CEO, revealed the theme and the date. This theme provided the cornerstone on which every team built their week. They knew its importance and spent the time to craft a compelling vision from a legitimate business opportunity. They took every chance, from all-hand lunches to department standups, to communicate and evangilise it. This gave clear direction, and from this direction followed exploration.</description>
     </item>
     
     <item>
       <title>Opening Night</title>
-      <link>https://kduggan.is/writing/opening-night/</link>
+      <link>https://kevduggan.github.io/writing/opening-night/</link>
       <pubDate>Sun, 23 Jun 2019 10:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/writing/opening-night/</guid>
+      <guid>https://kevduggan.github.io/writing/opening-night/</guid>
       <description>The year was 2004, the city was Canberra, Australia. The first international tour where I was male lead dancer, it was opening night. Big time!
 The show was starting, the hum of the audience dying down as the curtain came up. I was standing offstage left. My warm up was good. Felt nervous but ready to go. The music started slowly. I gave a quick jump to keep blood moving. The main troupe started into their slow choreography on stage.</description>
     </item>
     
     <item>
       <title>Talk: Rediscovering Lean: From Idea to Sale in 6 Months</title>
-      <link>https://kduggan.is/speaking/rediscovering-lean/</link>
+      <link>https://kevduggan.github.io/speaking/rediscovering-lean/</link>
       <pubDate>Thu, 20 Jun 2019 12:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/rediscovering-lean/</guid>
-      <description>Slides from a take I gave at RebelCon 2019 around finding flow and success in a recent project.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/rediscovering-lean/</guid>
+      <description>Slides from a take I gave at RebelCon 2019 around finding flow and success in a recent project.</description>
     </item>
     
     <item>
       <title>3 Tips for Bootstrapping Your High Performance Team</title>
-      <link>https://kduggan.is/writing/bootstrapping-high-performance-team/</link>
+      <link>https://kevduggan.github.io/writing/bootstrapping-high-performance-team/</link>
       <pubDate>Tue, 23 Apr 2019 10:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/writing/bootstrapping-high-performance-team/</guid>
+      <guid>https://kevduggan.github.io/writing/bootstrapping-high-performance-team/</guid>
       <description>Building a new product team is tough. But what about the added pressure of knowing that they has to hit the ground running? How do you set you and your team up for success?
 This blog post offers a few tips on how you to build that important momentum required to deliver both for the team and their users.
 Photo by Ravi Roshan on Unsplash
@@ -64,88 +59,94 @@ Photo by Ravi Roshan on Unsplash
     
     <item>
       <title>Why Mob Programming? Here are 5 reasons…</title>
-      <link>https://kduggan.is/writing/mob-programming/</link>
+      <link>https://kevduggan.github.io/writing/mob-programming/</link>
       <pubDate>Sat, 23 Mar 2019 10:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/writing/mob-programming/</guid>
+      <guid>https://kevduggan.github.io/writing/mob-programming/</guid>
       <description>First, you developed on your own. Then you paired. Now comes mob programming. Mob programming is an approach where you get your team together around a single workstation to work through a task from beginning to end. Many minds, many perspectives, one keyboard. There is no cost, no expensive training needed. It is simple; it works.
 There are three roles: one driver, one navigator, and one-to-many back seat passengers. Everyone rotates through all three roles.</description>
     </item>
     
     <item>
       <title>Zip It (in meetings)!</title>
-      <link>https://kduggan.is/writing/zip-it/</link>
+      <link>https://kevduggan.github.io/writing/zip-it/</link>
       <pubDate>Sun, 23 Dec 2018 10:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/writing/zip-it/</guid>
+      <guid>https://kevduggan.github.io/writing/zip-it/</guid>
       <description>Quick tip today. If you are a senior person in a meeting, answering lots of questions, offering loads of great advice, then try shutting up! You are talking too much and hurting other people more junior/introverted that you. Instead, show leadership by listening and empathising. This is the way forward. Sure, there is a time and a place for your knowledge and experience. But always giving advice, offering help and opinions, is short-termism.</description>
     </item>
     
     <item>
+      <title>My First Big(ish) Talk</title>
+      <link>https://kevduggan.github.io/writing/conf-talk/</link>
+      <pubDate>Thu, 23 Aug 2018 10:40:46 +0100</pubDate>
+      
+      <guid>https://kevduggan.github.io/writing/conf-talk/</guid>
+      <description>It was bad, but it wasn’t too bad. I’m processing my thoughts in the aftermath of my first conference talk at Agile-Lean Ireland 2018. The venue (Croke Park, Dublin) was sick and was my highlight. I may never have got to swing a hurley or dance a step there but I can now say I spoke at that hallowed ground!
+In the immediate aftermath of the talk I focussed on the shit parts.</description>
+    </item>
+    
+    <item>
       <title>Talk: Machine Learning, a Quick Introduction</title>
-      <link>https://kduggan.is/speaking/machine-learning-intro/</link>
+      <link>https://kevduggan.github.io/speaking/machine-learning-intro/</link>
       <pubDate>Wed, 22 Aug 2018 12:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/machine-learning-intro/</guid>
-      <description>Machine Learning is quite daunting for those who are unfamiliar with it. He is a brief introduction to some of the main concepts involved.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/machine-learning-intro/</guid>
+      <description>Machine Learning is quite daunting for those who are unfamiliar with it. He is a brief introduction to some of the main concepts involved.</description>
     </item>
     
     <item>
       <title>Continuous Delivery and THE FEAR</title>
-      <link>https://kduggan.is/writing/continuous-delivery-and-the-fear/</link>
+      <link>https://kevduggan.github.io/writing/continuous-delivery-and-the-fear/</link>
       <pubDate>Tue, 23 May 2017 10:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/writing/continuous-delivery-and-the-fear/</guid>
+      <guid>https://kevduggan.github.io/writing/continuous-delivery-and-the-fear/</guid>
       <description>Continuous Delivery (CD) is the ability to get changes of all types—including new features, configuration changes, bug fixes and experiments—into production, or into the hands of users, safely and quickly in a sustainable way.
  You want to go faster, so you invest months in building out a fully automated build pipeline. You modernise your architecture and adopt the latest agile process. And you achieve the dream of CD, with the ability to deploy features and bug fixes to production in seconds with zero downtime.</description>
     </item>
     
     <item>
       <title>Talk: Analytics with Apache Spark</title>
-      <link>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</link>
+      <link>https://kevduggan.github.io/speaking/big-data-analytics-with-apache-spark/</link>
       <pubDate>Mon, 20 Mar 2017 11:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</guid>
-      <description>A talk I gave at CorkDev.io around my experience in using Apache Spark in production for big data streaming and batch workloads.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/big-data-analytics-with-apache-spark/</guid>
+      <description>A talk I gave at CorkDev.io around my experience in using Apache Spark in production for big data streaming and batch workloads.</description>
     </item>
     
     <item>
       <title>Talk: Kanban Metrics: what and why...</title>
-      <link>https://kduggan.is/speaking/kanban/</link>
+      <link>https://kevduggan.github.io/speaking/kanban/</link>
       <pubDate>Wed, 01 Mar 2017 12:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/kanban/</guid>
-      <description>A quick run through what you should be tracking with Kanban, with some examples from teams I have worked on.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/kanban/</guid>
+      <description>A quick run through what you should be tracking with Kanban, with some examples from teams I have worked on.</description>
     </item>
     
     <item>
       <title>Talk: Care about your Code</title>
-      <link>https://kduggan.is/speaking/care-about-your-code/</link>
+      <link>https://kevduggan.github.io/speaking/care-about-your-code/</link>
       <pubDate>Thu, 22 Dec 2016 12:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/care-about-your-code/</guid>
-      <description>You should care about the quality of your code, and SonarQube makes this easy.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/care-about-your-code/</guid>
+      <description>You should care about the quality of your code, and SonarQube makes this easy.</description>
     </item>
     
     <item>
       <title>Big Data Analytics with Apache Spark</title>
-      <link>https://kduggan.is/writing/analytics-with-spark/</link>
+      <link>https://kevduggan.github.io/writing/analytics-with-spark/</link>
       <pubDate>Wed, 02 Nov 2016 10:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/writing/analytics-with-spark/</guid>
+      <guid>https://kevduggan.github.io/writing/analytics-with-spark/</guid>
       <description>Over the past two years, my team has taken a new Cross-Channel Analytics Platform from proof of concept to production. Our customers publish hundreds of thousands of communications daily across a variety of different channels, generating an explosion of events on that content. Email opens, page views, video plays and social comments (to mention but a few) are all captured by our platform and we process them across multiple different metrics and dimensions to deliver insights and actionable reports and dashboards to our end users.</description>
     </item>
     
     <item>
       <title>Removing sleeps from your AngularJS Protractor tests</title>
-      <link>https://kduggan.is/writing/removing-sleeps-from-protractor/</link>
+      <link>https://kevduggan.github.io/writing/removing-sleeps-from-protractor/</link>
       <pubDate>Wed, 06 Jul 2016 10:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/writing/removing-sleeps-from-protractor/</guid>
+      <guid>https://kevduggan.github.io/writing/removing-sleeps-from-protractor/</guid>
       <description>sleep() The Protractor framework does a great job of shielding you from the inherent difficulties of testing your asynchronous Angular app. Using ControlFlow it keeps the list of pending promises hence executing the test in a logical manner. However this is not always enough. Sometimes the tests outrun browser! In such cases you might just be tempted to put in a browser.sleep(2000) to allow everything to get back on track.</description>
     </item>
     

@@ -1,64 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Speakings on Kevin Duggan</title>
-    <link>https://kduggan.is/speaking/</link>
+    <link>https://kevduggan.github.io/speaking/</link>
     <description>Recent content in Speakings on Kevin Duggan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Jun 2019 12:40:46 +0100</lastBuildDate>
-    
-	<atom:link href="https://kduggan.is/speaking/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 20 Jun 2019 12:40:46 +0100</lastBuildDate><atom:link href="https://kevduggan.github.io/speaking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Talk: Rediscovering Lean: From Idea to Sale in 6 Months</title>
-      <link>https://kduggan.is/speaking/rediscovering-lean/</link>
+      <link>https://kevduggan.github.io/speaking/rediscovering-lean/</link>
       <pubDate>Thu, 20 Jun 2019 12:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/rediscovering-lean/</guid>
-      <description>Slides from a take I gave at RebelCon 2019 around finding flow and success in a recent project.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/rediscovering-lean/</guid>
+      <description>Slides from a take I gave at RebelCon 2019 around finding flow and success in a recent project.</description>
     </item>
     
     <item>
       <title>Talk: Machine Learning, a Quick Introduction</title>
-      <link>https://kduggan.is/speaking/machine-learning-intro/</link>
+      <link>https://kevduggan.github.io/speaking/machine-learning-intro/</link>
       <pubDate>Wed, 22 Aug 2018 12:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/machine-learning-intro/</guid>
-      <description>Machine Learning is quite daunting for those who are unfamiliar with it. He is a brief introduction to some of the main concepts involved.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/machine-learning-intro/</guid>
+      <description>Machine Learning is quite daunting for those who are unfamiliar with it. He is a brief introduction to some of the main concepts involved.</description>
     </item>
     
     <item>
       <title>Talk: Analytics with Apache Spark</title>
-      <link>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</link>
+      <link>https://kevduggan.github.io/speaking/big-data-analytics-with-apache-spark/</link>
       <pubDate>Mon, 20 Mar 2017 11:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/big-data-analytics-with-apache-spark/</guid>
-      <description>A talk I gave at CorkDev.io around my experience in using Apache Spark in production for big data streaming and batch workloads.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/big-data-analytics-with-apache-spark/</guid>
+      <description>A talk I gave at CorkDev.io around my experience in using Apache Spark in production for big data streaming and batch workloads.</description>
     </item>
     
     <item>
       <title>Talk: Kanban Metrics: what and why...</title>
-      <link>https://kduggan.is/speaking/kanban/</link>
+      <link>https://kevduggan.github.io/speaking/kanban/</link>
       <pubDate>Wed, 01 Mar 2017 12:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/kanban/</guid>
-      <description>A quick run through what you should be tracking with Kanban, with some examples from teams I have worked on.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/kanban/</guid>
+      <description>A quick run through what you should be tracking with Kanban, with some examples from teams I have worked on.</description>
     </item>
     
     <item>
       <title>Talk: Care about your Code</title>
-      <link>https://kduggan.is/speaking/care-about-your-code/</link>
+      <link>https://kevduggan.github.io/speaking/care-about-your-code/</link>
       <pubDate>Thu, 22 Dec 2016 12:40:46 +0100</pubDate>
       
-      <guid>https://kduggan.is/speaking/care-about-your-code/</guid>
-      <description>You should care about the quality of your code, and SonarQube makes this easy.
-  </description>
+      <guid>https://kevduggan.github.io/speaking/care-about-your-code/</guid>
+      <description>You should care about the quality of your code, and SonarQube makes this easy.</description>
     </item>
     
   </channel>
